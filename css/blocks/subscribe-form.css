@@ -1,0 +1,50 @@
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-form > * + * {
+    margin-left: 10px;
+}
+
+.subscribe-form__input {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 230px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #F72464;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-style: normal;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    outline-color: #F72464;
+}
+
+.subscribe-form__submit {
+    display: inline-block;
+    padding: 9px 30px 11px;
+    background: #F72464;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
+
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: box-shadow 0.2s ease-in, background 0.2s ease-in;
+}
+
+.subscribe-form__submit:hover{
+    box-shadow: 0px 4px 20px rgba(123, 12, 45, 0.63);
+    background: #f54076;
+}
